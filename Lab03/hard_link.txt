@@ -1,0 +1,2 @@
+# This line was added via hard link
+echo "Hello from hard link"

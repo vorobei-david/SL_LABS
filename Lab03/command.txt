@@ -1,0 +1,102 @@
+1 mkdir -p ~/linux_lab 
+2 cd ~/linux_lab 
+3 mkdir -p projects/{scripts,web/static} temp backups
+4 tree
+5 touch projects/scripts/{main.py,config.yaml,utils.sh}
+6 touch projects/web/static/{index.html,styles.css}
+7 cat > projects/web/static/index.html << EOF
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a test page for Linux lab</p>
+</body>
+</html>
+EOF
+8 cp projects/web/static/styles.css temp/old_styles.css
+9 mv projects/scripts/config.yaml temp/
+10 cp projects/scripts/*.sh temp/ 2>/dev/null || true
+11 find ~/linux_lab -type f -exec ls -lh {} + | sort -k5 -h
+12 ln ~/linux_lab/projects/scripts/utils.sh ~/hard_link.txt
+13 cat ~/hard_link.txt
+14 cat >> ~/hard_link.txt << EOF
+# This line was added via hard link
+echo "Hello from hard link"
+EOF
+15 cat ~/linux_lab/projects/scripts/utils.sh
+16 ln -s ~/linux_lab/projects/web/static ~/linux_lab/temp/web_link
+17 cd ~/linux_lab/temp/web_link
+18 pwd
+19 ls -la
+20 cd ~/linux_lab
+21 tar -cf backups/projects_backup.tar projects/
+22 tar -czf backups/web_backup.tar.gz projects/web/
+23 cd projects/scripts/
+24 zip ~/linux_lab/backups/important_files.zip main.py utils.sh
+25 cd ~/linux_lab
+26 mkdir -p temp/restored_web
+27 tar -xzf backups/web_backup.tar.gz -C temp/restored_web/
+28 unzip -l backups/important_files.zip
+29 rm -rf temp/*
+30 rm -rf backups/*
+31 rm -f temp/web_link
+32 {
+    echo "=== SYSTEM REPORT ==="
+    echo "Username: $(whoami)"
+    echo "Login name: $(who am i | awk '{print $1}' || echo 'N/A')"
+    echo "Current directory: $(pwd)"
+    echo "User ID info:"
+    id
+    echo "Directory listing of projects/scripts/:"
+    ls -l projects/scripts/
+} > report.txt
+33 echo "Report generated on: $(date)" >> report.txt
+34 cp report.txt ~/
+35 zip -r -P 1111 ~/linux_lab_final.zip ~/linux_lab/
+36 ls -lh ~/linux_lab_final.zip
+37 rm -rf ~/linux_lab
+38 unzip -o ~/linux_lab_final.zip -d ~/linux_lab/
+39 echo "Report generated on: $(date)" >> report.txt
+40 echo "Archive size:"
+ls -lh ~/linux_lab_final.zip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

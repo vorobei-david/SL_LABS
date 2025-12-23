@@ -1,0 +1,11 @@
+=== SYSTEM REPORT ===
+Username: artsiom
+Login name: 
+Current directory: /home/artsiom/linux_lab
+User ID info:
+uid=1000(artsiom) gid=1000(artsiom) группы=1000(artsiom),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),105(lpadmin),125(sambashare),986(vboxsf)
+Directory listing of projects/scripts/:
+итого 4
+-rw-rw-r-- 1 artsiom artsiom  0 сен 30 17:02 main.py
+-rw-rw-r-- 2 artsiom artsiom 64 сен 30 17:07 utils.sh
+Report generated on: Вт 30 сен 2025 17:17:04 +03

@@ -1,0 +1,20 @@
+2025-10-06T17:16:49.591586+03:00 artsiom-VirtualBox systemd-timesyncd[598]: Timed out waiting for reply from [2620:2d:4000:1::41]:123 (ntp.ubuntu.com).
+2025-10-06T17:16:52.403742+03:00 artsiom-VirtualBox dbus-daemon[620]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.65' (uid=0 pid=3683 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+2025-10-06T17:16:52.479982+03:00 artsiom-VirtualBox systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-10-06T17:16:52.496051+03:00 artsiom-VirtualBox PackageKit: daemon start
+2025-10-06T17:16:52.565596+03:00 artsiom-VirtualBox dbus-daemon[620]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2025-10-06T17:16:52.566915+03:00 artsiom-VirtualBox systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-10-06T17:16:59.843343+03:00 artsiom-VirtualBox systemd-timesyncd[598]: Timed out waiting for reply from [2620:2d:4000:1::3f]:123 (ntp.ubuntu.com).
+2025-10-06T17:17:01.401813+03:00 artsiom-VirtualBox CRON[3707]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-10-06T17:17:10.091944+03:00 artsiom-VirtualBox systemd-timesyncd[598]: Timed out waiting for reply from [2620:2d:4000:1::40]:123 (ntp.ubuntu.com).
+2025-10-06T17:17:36.928743+03:00 artsiom-VirtualBox dbus-daemon[620]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.67' (uid=1000 pid=3723 comm="xfce4-screenshooter" label="unconfined")
+2025-10-06T17:17:36.961305+03:00 artsiom-VirtualBox systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-10-06T17:17:37.165662+03:00 artsiom-VirtualBox dbus-daemon[620]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-10-06T17:17:37.168908+03:00 artsiom-VirtualBox systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-10-06T17:17:37.276783+03:00 artsiom-VirtualBox gvfsd-wsdd[3748]: Failed to spawn the wsdd daemon: Не удалось выполнить дочерний процесс "wsdd" (Нет такого файла или каталога)
+2025-10-06T17:17:37.282234+03:00 artsiom-VirtualBox gvfsd-network[3735]: Couldn't create directory monitor on wsdd:///. Error: Сбой автоматического подключения: Не удалось вызвать базового демона wsdd.
+2025-10-06T17:17:44.535680+03:00 artsiom-VirtualBox dbus-daemon[1214]: [session uid=1000 pid=1214] Activating via systemd: service name='org.freedesktop.thumbnails.Thumbnailer1' unit='tumblerd.service' requested by ':1.26' (uid=1000 pid=1579 comm="Thunar --daemon" label="unconfined")
+2025-10-06T17:17:44.555926+03:00 artsiom-VirtualBox systemd[1191]: Starting tumblerd.service - Thumbnailing service...
+2025-10-06T17:17:44.823369+03:00 artsiom-VirtualBox dbus-daemon[1214]: [session uid=1000 pid=1214] Successfully activated service 'org.freedesktop.thumbnails.Thumbnailer1'
+2025-10-06T17:17:44.824814+03:00 artsiom-VirtualBox systemd[1191]: Started tumblerd.service - Thumbnailing service.
+2025-10-06T17:18:07.215857+03:00 artsiom-VirtualBox systemd[1]: systemd-hostnamed.service: Deactivated successfully.
