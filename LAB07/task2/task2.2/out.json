@@ -1,0 +1,16 @@
+{
+    "average_by_special": {
+        "technical": 25,
+        "legal": 30,
+        "medical": 35,
+        "literary": 28,
+        "business": 40
+    },
+    "average_exp": {
+        "English": 5,
+        "German": 7,
+        "French": 8,
+        "Spanish": 4,
+        "Chinese": 10
+    }
+}

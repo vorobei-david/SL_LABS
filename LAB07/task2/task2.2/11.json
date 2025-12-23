@@ -1,0 +1,9 @@
+{
+  "translators": [
+    {"translator_id": "tr001", "name": "Elena", "specialization": "technical", "language": "English", "rate": 25, "experience_years": 5, "completed_projects": 45},
+    {"translator_id": "tr002", "name": "Mark", "specialization": "legal", "language": "German", "rate": 30, "experience_years": 7, "completed_projects": 38},
+    {"translator_id": "tr003", "name": "Sophie", "specialization": "medical", "language": "French", "rate": 35, "experience_years": 8, "completed_projects": 52},
+    {"translator_id": "tr004", "name": "Thomas", "specialization": "literary", "language": "Spanish", "rate": 28, "experience_years": 4, "completed_projects": 29},
+    {"translator_id": "tr005", "name": "Laura", "specialization": "business", "language": "Chinese", "rate": 40, "experience_years": 10, "completed_projects": 67}
+  ]
+}
